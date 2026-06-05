@@ -1,0 +1,92 @@
+[
+  {
+    "invoiceNumber": "INV-2026-001",
+    "clientName": "Beau Bassin Trading Ltd",
+    "issueDate": "2026-01-15",
+    "vatRate": 15,
+    "status": "paid",
+    "lineItems": [
+      {
+        "description": "Consulting services - January",
+        "quantity": 10,
+        "unitPrice": 2500
+      },
+      {
+        "description": "Software licence",
+        "quantity": 1,
+        "unitPrice": 12000
+      }
+    ]
+  },
+  {
+    "invoiceNumber": "INV-2026-002",
+    "clientName": "Port Louis Logistics Ltd",
+    "issueDate": "2026-02-03",
+    "vatRate": 15,
+    "status": "sent",
+    "lineItems": [
+      {
+        "description": "Freight forwarding",
+        "quantity": 3,
+        "unitPrice": 8500
+      },
+      {
+        "description": "Customs handling",
+        "quantity": 3,
+        "unitPrice": 1500
+      }
+    ]
+  },
+  {
+    "invoiceNumber": "INV-2026-003",
+    "clientName": "Grand Baie Hotels Ltd",
+    "issueDate": "2026-02-20",
+    "vatRate": 15,
+    "status": "draft",
+    "lineItems": [
+      {
+        "description": "Website maintenance - Q1",
+        "quantity": 1,
+        "unitPrice": 18000
+      }
+    ]
+  },
+  {
+    "invoiceNumber": "INV-2026-004",
+    "clientName": "Curepipe Hardware Co",
+    "issueDate": "2026-03-01",
+    "vatRate": 15,
+    "status": "sent",
+    "lineItems": [
+      {
+        "description": "POS terminal",
+        "quantity": 2,
+        "unitPrice": 9500
+      },
+      {
+        "description": "Setup & training",
+        "quantity": 1,
+        "unitPrice": 3000
+      }
+    ]
+  },
+  {
+    "invoiceNumber": "INV-2026-005",
+    "clientName": "Quatre Bornes Pharmacy",
+    "issueDate": "2026-03-12",
+    "vatRate": 15,
+    "status": "paid",
+    "lineItems": [
+      {
+        "description": "Inventory module - annual",
+        "quantity": 1,
+        "unitPrice": 45000
+      },
+      {
+        "description": "Support add-on",
+        "quantity": 4,
+        "unitPrice": 1250
+      }
+    ]
+  }
+]
