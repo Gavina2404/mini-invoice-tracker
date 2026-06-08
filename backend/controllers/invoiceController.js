@@ -55,8 +55,26 @@ const getInvoices = async (req, res) => {
     });
   }
 };
+const getInvoiceById = async (req, res) => {
+  try {
+    const invoice = await Invoice.findById(req.params.id);
 
+    if (!invoice) {
+      return res.status(404).json({
+        message: "Invoice not found"
+      });
+    }
+
+    res.status(200).json(invoice);
+
+  } catch (error) {
+    res.status(500).json({
+      message: error.message
+    });
+  }
+};
 module.exports = {
   createInvoice,
-  getInvoices
+  getInvoices,
+  getInvoiceById
 };
