@@ -1,7 +1,5 @@
 # Submission — Gavina Smriti Beharee
 
-> Fill this in before you submit. It helps us run and review your work quickly.
-
 ## Stack I chose
 - **Frontend: React (Vite), Axios
 - **Backend: Node.js, Express.js
