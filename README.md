@@ -23,18 +23,20 @@ A full-stack invoice management application built for the Access Technologies Ju
 ### Backend
 
 Create a .env file inside the backend folder:
-
-env PORT=4000 MONGO_URI=your_mongodb_connection_string 
+PORT=4000
+MONGO_URI=your_mongodb_connection_string
 
 Run:
-
-bash cd backend npm install npm run dev 
+cd backend
+npm install
+npm run dev
 
 ### Frontend
 
-Run:
-
-bash cd frontend npm install npm run dev 
+Open another terminal and run:
+cd frontend
+npm install
+npm run dev
 
 Frontend:
 
