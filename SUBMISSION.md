@@ -1,9 +1,9 @@
 # Submission — Gavina Smriti Beharee
 
 ## Stack I chose
-- **Frontend: React (Vite), Axios
-- **Backend: Node.js, Express.js
-- **Database: MongoDB Atlas, Mongoose
+- Frontend: React (Vite), Axios
+- Backend: Node.js, Express.js
+- Database: MongoDB Atlas, Mongoose
 - **Why this stack:**
 I chose this stack because it is easy to learn, well documented and commonly used for full stack web applications. It allowed me to build the project efficiently while learning modern web development technologies.
 
